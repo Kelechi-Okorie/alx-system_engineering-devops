@@ -8,3 +8,4 @@ File 4-hello - Contains command to create an empty file call hello
 File 5-execute - Contains command to add execute permission to the owner of the file hello
 File 6-multiple_permissions - Contains command to add multiple permissions to file helllo
 File 7-everybody - Contains command to add execution permission to everybody for the file hello
+File 8-James_Bond - Contains command to remove all permission from owner and group owner and all permissions to others
