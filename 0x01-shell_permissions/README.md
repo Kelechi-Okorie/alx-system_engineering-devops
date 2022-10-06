@@ -9,4 +9,5 @@ File 5-execute - Contains command to add execute permission to the owner of the 
 File 6-multiple_permissions - Contains command to add multiple permissions to file helllo
 File 7-everybody - Contains command to add execution permission to everybody for the file hello
 File 8-James_Bond - Contains command to remove all permission from owner and group owner and all permissions to others
-File 8-John_Doe - Contains command to set hello file permission 0 -rwxr-x-wx
+File 9-John_Doe - Contains command to set hello file permission 0 -rwxr-x-wx
+File 10-mirror_permissions - Contains command to set the permissions of hello to be same as that of olleh
