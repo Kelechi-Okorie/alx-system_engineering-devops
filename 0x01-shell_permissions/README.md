@@ -6,4 +6,5 @@ File 2-groups - Contains command to print all the groups the current user belong
 File 3-new_owner - Contains command to change the owner of the file hello to be betty
 File 4-hello - Contains command to create an empty file call hello
 File 5-execute - Contains command to add execute permission to the owner of the file hello
-File 5-multiple_permissions - contains command to add multiple permissions to file helllo
+File 6-multiple_permissions - Contains command to add multiple permissions to file helllo
+File 7-everybody - Contains command to add execution permission to everybody for the file hello
