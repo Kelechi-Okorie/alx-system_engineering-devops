@@ -12,4 +12,5 @@ File 8-James_Bond - Contains command to remove all permission from owner and gro
 File 9-John_Doe - Contains command to set hello file permission 0 -rwxr-x-wx
 File 10-mirror_permissions - Contains command to set the permissions of hello to be same as that of olleh
 File 11-directories_permissions - Contains command to set permissions recursively for the current directory
-File 12-directory_permissions ' Contains command to create and set permission for a folder called my_dir using one code
+File 12-directory_permissions - Contains command to create and set permission for a folder called my_dir using one code
+File 13-change-group - Contains command for change goup onwer for the file named hello
