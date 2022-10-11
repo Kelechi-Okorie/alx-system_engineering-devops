@@ -8,4 +8,5 @@ File 5-firstlines - Displays the first 10 lines of /etc/passwd
 File 6-third_line - Displays the content of the third line of iacta
 File 7-file - Creates a file and adds the content "Best School" to it
 File 8-cwd_state - Saves the result of ls -al to the file ls_cwd_content
-File 8-duplicate_last_line - Duplicates the last line of the file iacta
+File 9-duplicate_last_line - Duplicates the last line of the file iacta
+File 10-no_more_js - Script that deletes all js files present in the current folder
