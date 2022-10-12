@@ -23,3 +23,4 @@ File 20-hiago - Removes all letters c and c from the input
 File 21-reverse - A script that reverses its input
 File 22-users_and_homes - Displays all users and their home directories, sorted by users
 File 100-empty_casks - Finds all empty files and directories in the current directories and sub-directories
+File 101-gifs - Lists all the files with a .gif extension in the current working directory and its subdirectories
