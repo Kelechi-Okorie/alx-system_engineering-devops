@@ -16,3 +16,4 @@ File 13-unique - Takes a list of words and prints only words that appear exactly
 File 14-findthatword - Dispalys lines containing the pattern "root" from /etc/passwd
 File 15-countthatword - Displays the number of lines that contain the pattern "bin" in /etc/passwd
 File 16-whatsnext - Displays lines containing the pattern "root" and 3 lines after them in /etc/passwd
+File 17-hidethisword - Displays all the lines in the /etc/passwd that do not contain the pattern bin
