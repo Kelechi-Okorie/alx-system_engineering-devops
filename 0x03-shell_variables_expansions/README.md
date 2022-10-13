@@ -6,3 +6,4 @@ File 3-paths - Script that counts the number of directories in the PATH
 File 4-global_variables - Script that lists the environment variables
 File 5-local_variables - Script that lists all local and environment variables and functions
 File 6-create_local_variable - Script that creates local variable with name BEST and value School
+File 7-create_global_varibale - Script that creates a new global variable
