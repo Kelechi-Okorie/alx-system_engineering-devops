@@ -14,3 +14,4 @@ File 11-binary_to_decimal - Script that converts a number from base 2 to base 10
 File 13-combinations - Script that prints a number NUM with 2 decimal places, followed by a new line
 File 100-decimal_to_hexadecimal - Script that converts a number from decimal to hexadecimal
 File 101-rot13 - Script that encodes and decodes ASCII texts using the rot13 encryption
+File 102-odd - Script that prints every other line from the input, starting with the first line
