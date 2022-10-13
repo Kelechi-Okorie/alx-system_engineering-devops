@@ -10,4 +10,4 @@ File 7-create_global_varibale - Script that creates a new global variable
 File 8-true_knowledge - Script that prints the result of the addition of 128 with the value stored in the environment variable name TRUEKNOWLEDGE followed by a new line
 File 9-divide_and_rule - Script that prints the result of POWER divided by DIVIDE followed by a new line
 File 10-love_exponent_breadh - Script that displays the result of BREATH to the power LOVE
-File 11-binary_to_decimal - Script that converts a number from base 2 to base 10
+File 11-binary_to_decimal - Script that converts a number from base 2 to base 10File 12-combinations - Script that prints all possible combinations of 2 loower case letters , except oo
