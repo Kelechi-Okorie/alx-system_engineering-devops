@@ -9,3 +9,4 @@ File 6-create_local_variable - Script that creates local variable with name BEST
 File 7-create_global_varibale - Script that creates a new global variable
 File 8-true_knowledge - Script that prints the result of the addition of 128 with the value stored in the environment variable name TRUEKNOWLEDGE followed by a new line
 File 9-divide_and_rule - Script that prints the result of POWER divided by DIVIDE followed by a new line
+File 10-love_exponent_breadh - Script that displays the result of BREADTH to the power LOVE
