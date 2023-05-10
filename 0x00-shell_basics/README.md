@@ -16,3 +16,4 @@ File 13-symbolic_link - Creates a symbolic link
 File 14-copy_html - Copies files from one directory to another
 File 100-lets_move - Copies files starting with uppercase to /tmp/u
 File 101-clean_emacs - Deletes files in current directory ending with ~
+File 102-tree - Creates some directories
