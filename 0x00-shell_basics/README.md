@@ -5,3 +5,4 @@ File 2-bring_me_home - Changes current working directory to home
 File 3-listfiles - Displays current directory contents in a long format
 File 4-listmorefiles - Lists contents of current directory including hidden files
 File 5-listfilesdigitonly - Displays current directory with user and groud IDs displayed numerically
+File 6-firstdirectory - Creates the directory /tmp/my_first_directory
