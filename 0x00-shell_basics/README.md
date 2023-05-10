@@ -11,3 +11,4 @@ File 8-firstdelet - Deletes a file
 File 9-firstdirdeletion - Deletes a folder
 File 10-back - changes working direcory to previous one
 File 11-lists - Lists files in current directory, parent of current direcoty and /boot directory
+File 12-file_type - prints the filetype of file iamafile in the /tmp directory
