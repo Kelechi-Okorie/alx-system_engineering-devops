@@ -15,3 +15,4 @@ File 12-file_type - prints the filetype of file iamafile in the /tmp directory
 File 13-symbolic_link - Creates a symbolic link
 File 14-copy_html - Copies files from one directory to another
 File 100-lets_move - Copies files starting with uppercase to /tmp/u
+File 101-clean_emacs - Deletes files in current directory ending with ~
