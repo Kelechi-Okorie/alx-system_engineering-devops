@@ -9,3 +9,4 @@ File 6-firstdirectory - Creates the directory /tmp/my_first_directory
 File 7-movethatfile - Move a file to another directory
 File 8-firstdelet - Deletes a file
 File 9-firstdirdeletion - Deletes a folder
+File 10-back - changes working direcory to previous one
