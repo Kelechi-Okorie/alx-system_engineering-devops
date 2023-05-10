@@ -7,3 +7,4 @@ File 4-listmorefiles - Lists contents of current directory including hidden file
 File 5-listfilesdigitonly - Displays current directory with user and groud IDs displayed numerically
 File 6-firstdirectory - Creates the directory /tmp/my_first_directory
 File 7-movethatfile - Move a file to another directory
+File 8-firstdelet - Deletes a file
