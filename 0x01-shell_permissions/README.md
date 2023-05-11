@@ -9,3 +9,4 @@ File 6-multiple_permissions - adds multiple permissions
 File 7-everybody - adds execution permission to everybody
 File 8-James_Bond - sets permissions of a files
 File 9-John_Doe - sets permission of a file
+File 10-mirror_permissions - copies file permission to another file
