@@ -7,4 +7,5 @@ File 4-empty - creates an empty file
 File 5-execute - adds execute permission to the owner of the file hello
 File 6-multiple_permissions - adds multiple permissions
 File 7-everybody - adds execution permission to everybody
-File 8-James_Bond - adds permissions to files
+File 8-James_Bond - sets permissions of a files
+File 9-John_Doe - sets permission of a file
