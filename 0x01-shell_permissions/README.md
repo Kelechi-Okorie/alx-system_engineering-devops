@@ -4,3 +4,4 @@ File 1-who_am_i - Prints the effective user id
 File 2-group - Prints all the groups the current user is part
 File 3-new_owner - Changes owner of file hello to user betty
 File 4-empty - creates an empty file
+File 5-execute - adds execute permission to the owner of the file hello
