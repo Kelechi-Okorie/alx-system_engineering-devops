@@ -15,3 +15,4 @@ File 12-directory_permissionsi - creates a directory with permission set to 751
 File 13-change_group - changes group owner
 File 100-change_owner_and_group - changes owner and group for files in cwd
 File 101-symbolic_link_permissions - changes owner and group of a symbolic link
+File 102-if_only - changes onwer of file if owned by guillaume
