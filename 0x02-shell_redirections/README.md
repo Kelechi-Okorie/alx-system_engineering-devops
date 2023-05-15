@@ -17,3 +17,4 @@ File 14-findthatwork - displays line containing the pattern "root" from /etc/pas
 File 15-countthatword - displays the number of lines containing pattern "bin" in /etc/passwd
 File 16-whatsnext - dislays lines containing the pattern "root" and 3 lines after them in /etc/passwd
 File 17-hidethisword - displays all lines in /etc/passwd not containing the pattern "bin"
+File 18-letteronly - displays all lines in /etc/ssh/sshd_config starting with a letter
