@@ -9,3 +9,4 @@ File 6-third_line - displays the third line of the file iacta
 File 7-file - creates a file with a certain name
 File 8-cwd_state - writes into the file ls_cwd_content the output of ls -la
 File 9-duplicate_last_line - duplicates last line of the file iacta
+File 10-no_more_js - deletes js files recursively
