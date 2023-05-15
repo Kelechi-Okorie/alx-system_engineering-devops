@@ -12,3 +12,4 @@ File 9-duplicate_last_line - duplicates last line of the file iacta
 File 10-no_more_js - deletes js files recursively
 File 11-directories - Counts the number of directories and subdirectories not including current, parent and hidden directories
 File 12-newest_file - displays 10 newest file in the current directory
+File 13-unique - displays sorted and unique words; one per line
