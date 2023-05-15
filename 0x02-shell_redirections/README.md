@@ -20,3 +20,4 @@ File 17-hidethisword - displays all lines in /etc/passwd not containing the patt
 File 18-letteronly - displays all lines in /etc/ssh/sshd_config starting with a letter
 File 19-AZ - replaces A with Z and c with e
 File 10-hiago - removes all letters c and C from input
+File 21-reverse - reverses its input
