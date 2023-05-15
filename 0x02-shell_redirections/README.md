@@ -18,3 +18,4 @@ File 15-countthatword - displays the number of lines containing pattern "bin" in
 File 16-whatsnext - dislays lines containing the pattern "root" and 3 lines after them in /etc/passwd
 File 17-hidethisword - displays all lines in /etc/passwd not containing the pattern "bin"
 File 18-letteronly - displays all lines in /etc/ssh/sshd_config starting with a letter
+File 19-AZ - replaces A with Z and c with e
