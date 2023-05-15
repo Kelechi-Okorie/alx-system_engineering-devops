@@ -5,3 +5,4 @@ File 2-hellofile - displays content of /etc/passwd
 File 3-twofiles - displays contents of /etc/passwd and /etc/shadow
 File 4-lastlines - displays last 10 lines of /etc/passwd
 File 5-firstlines - displays first 10 lines of etc/passwd
+File 6-third_line - displays the third line of the file iacta
