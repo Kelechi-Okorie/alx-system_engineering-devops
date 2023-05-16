@@ -9,3 +9,4 @@ File 6-create_local_variabe - creates a new local variable BEST
 File 7-create_global_variable
 File 8-true_knowledge - prints the results of addition of 128 with $TRUEKNOWLEDGE
 File 9-divide_and_rule - prints the result of $POWER divided by $DIVIDE
+File 10-love_exponent_breath - displays the result of BREATH to power LOVE
