@@ -14,3 +14,4 @@ File 11-binary_to_decimal - converts from base 2 to base 10
 File 12-combinations - prints all possible combinations of two lowercase letter, except 00
 File 13-print_float - prints a number with 2 decimal places, followed by a newline
 File 100-decimal_to_hexadecimal - converts number from base 10 to 16
+File 101-rot13 - encodes and decodes text using the rot13 encryption. Asumming ASCII
