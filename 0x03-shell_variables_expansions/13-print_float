@@ -1,0 +1,2 @@
+#!/bin
+print '%.2f\n' $NUM
