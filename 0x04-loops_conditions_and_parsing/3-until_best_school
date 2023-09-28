@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays Best School 10 times using until loop
+
+IDX=10
+until [ $IDX -lt 1 ]
+do
+	echo "Best School"
+	(( IDX=IDX-1 ))
+done
