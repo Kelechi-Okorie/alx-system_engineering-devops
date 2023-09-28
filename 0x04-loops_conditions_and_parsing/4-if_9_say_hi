@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# displays Best School 10 times, but Hi on a new line for the 9th iteratin
+
+IDX=0
+while [ $IDX -lt 11 ] 
+do
+	if [ $IDX = 9 ]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	(( IDX=IDX+1 ))
+done
