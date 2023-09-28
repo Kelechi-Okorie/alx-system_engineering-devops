@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# displays Best School 10 times using a while loop
+
+IDX=0
+while [ $IDX -lt 10 ]
+do
+	echo "Best School"
+	let IDX=IDX+1
+done
