@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# display message in a given order
+
+IDX=1
+while [ $IDX -lt 11 ]
+do
+	if [ $IDX = 4 ]
+	then
+		echo "bad luck"
+	elif [ $IDX = 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( IDX=IDX+1 ))
+done
