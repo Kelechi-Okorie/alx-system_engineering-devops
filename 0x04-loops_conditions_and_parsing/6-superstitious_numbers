@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# displays message in a given manner
+
+IDX=1
+while [ $IDX -lt 21 ]
+do
+	case $IDX in
+		4)
+			echo $IDX
+			echo "bad luck from China"
+			;;
+
+		9)
+			echo $IDX
+			echo "bad luck from Japan"
+			;;
+
+		17)
+			echo $IDX
+			echo "bad luck from Italy"
+			;;
+
+		*)
+			echo $IDX
+			;;
+	esac
+
+	(( IDX=IDX+1 ))
+done
