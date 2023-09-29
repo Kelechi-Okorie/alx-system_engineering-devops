@@ -8,4 +8,5 @@ File 4-to_infinity_and_beyond - a bash script that displays "to infinity and bey
 File 5-dont_stop_me_now - A bash script that stops 4-to_infinity_and_beyond  
 File 6-stop_me_if_you_can - stops 4-to_infinity_and_beyond without using kill or killall  
 File 7-highlander - kills process 67-stop_me_if_you_can which is a copy of 6-stop_me_if_you_can  
-File 8-beheaded_process - A script that kills 7-highlander
+File 8-beheaded_process - A script that kills 7-highlander  
+File 100-process_and_pid_file - A script that creates a file and writes to it and terminate when receiving kill signal
