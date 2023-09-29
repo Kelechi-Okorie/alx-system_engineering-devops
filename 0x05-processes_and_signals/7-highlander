@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Displays a message indefinitely and another message on receiving the kill signal
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
