@@ -7,4 +7,5 @@ File 3-show_your_bash_pid_made_easy - displays pid along with name of process wh
 File 4-to_infinity_and_beyond - a bash script that displays "to infinity and beyond" indefinitely  
 File 5-dont_stop_me_now - A bash script that stops 4-to_infinity_and_beyond  
 File 6-stop_me_if_you_can - stops 4-to_infinity_and_beyond without using kill or killall  
-File 7-highlander - kills process 67-stop_me_if_you_can which is a copy of 6-stop_me_if_you_can
+File 7-highlander - kills process 67-stop_me_if_you_can which is a copy of 6-stop_me_if_you_can  
+File 8-beheaded_process - A script that kills 7-highlander
