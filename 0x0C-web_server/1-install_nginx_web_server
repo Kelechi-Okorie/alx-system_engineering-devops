@@ -2,7 +2,8 @@
 # installs nginx web server
 
 apt-get -y update
+apt-get -y upgrade
 apt-get -y install nginx
 ufw allow 'Nginx HTTP'
-echo 'Hello world!' > /var/www/html/index.html
+echo 'Hello world!' > /var/www/html/index.nginx-debian.html
 systemctl start nginx
