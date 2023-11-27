@@ -6,4 +6,4 @@ apt-get -y upgrade
 apt-get -y install nginx
 ufw allow 80
 echo 'Hello world!' > /var/www/html/index.html
-system nginx start
+systemctl start nginx
