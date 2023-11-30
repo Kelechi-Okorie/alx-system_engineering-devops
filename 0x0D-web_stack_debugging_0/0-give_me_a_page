@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# debugs an apache server
+systemctl start apache2
