@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# configures Nginx so that its HTTP response contains custom header (on web-01 and web-02)
+
+apt-get -y update
+apt-get -y install nginx
+ufw allow 'Nginx HTTP'
+echo 'Hello world!' > /var/www/html/index.nginx-debian.html
+sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.google.com;' /etc/nginx/sites-available/default
+system nginx start
