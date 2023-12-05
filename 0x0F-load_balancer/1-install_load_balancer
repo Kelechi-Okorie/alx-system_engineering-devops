@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# installs and configures haproxy
+
+apt install -y software-properties-common
+apt install -y add-apt-repository ppa:vbernat/haproxy-2.6
+apt update
+apt install -y haproxy
+cp -a /etc/haproxy/haproxy.cfg{,.orig}
+sed -i '/errorfile 504/a listen panascot' /etc/haproxy/haproxy.cfg
+sed -i '/listen panascot/a      bind *:80' /etc/haproxy/haproxy.cfg
+sed -i '/bind *:80/a    server 160596-web-01 54.90.42.30 check' /etc/haproxy/haproxy.cfg
+sed -i '/server 160596-web-01 54.90.42.30/a   server 160596-web-02 100.26.153.218 check' /etc/haproxy/haproxy.cfg
+sed -i '/EXTRAOPTS="-de -m 16"/a ENABLED=1' /etc/default/haproxy
+service haproxy start
