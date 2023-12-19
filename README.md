@@ -17,4 +17,5 @@ commandline_for_the_win
 0x0F-load_balancer  
 0x0E-web_stack_debugging_1  
 0x10-https_ssl  
-0x013-firewall  
+0x13-firewall  
+0x14-mysql  
