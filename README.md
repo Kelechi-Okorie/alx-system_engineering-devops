@@ -19,3 +19,4 @@ commandline_for_the_win
 0x10-https_ssl  
 0x13-firewall  
 0x14-mysql  
+0x12-web_stack_debugging_2  
