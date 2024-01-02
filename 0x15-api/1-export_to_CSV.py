@@ -5,6 +5,7 @@ his/her TODO list progress"""
 import csv
 import requests
 import sys
+import pprint
 
 if __name__ == "__main__":
     id = sys.argv[1]
@@ -12,11 +13,13 @@ if __name__ == "__main__":
     url = f"https://jsonplaceholder.typicode.com/users/{id}"
     response = requests.get(url)
     user = response.json()
-    name = user.get('name')
+    name = user.get('username')
 
     url = "https://jsonplaceholder.typicode.com/todos"
     response = requests.get(url)
     todos = response.json()
+
+    # pprint.pp(todos)
 
     filename = id + '.csv'
     with open(filename, mode="w") as f:
@@ -24,6 +27,6 @@ if __name__ == "__main__":
                             quoting=csv.QUOTE_ALL, lineterminator='\n')
 
         for task in todos:
-            if task.get('id') == int(id):
+            if task.get('userId') == int(id):
                 writer.writerow([id, name, str(task.get('completed')),
                                  task.get('title')])
