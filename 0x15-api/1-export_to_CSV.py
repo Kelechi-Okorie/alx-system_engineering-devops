@@ -26,4 +26,4 @@ if __name__ == "__main__":
         for task in todos:
             if task.get('id') == int(id):
                 writer.writerow([id, name, str(task.get('completed')),
-                                 task.get('title ')])
+                                 task.get('title')])
