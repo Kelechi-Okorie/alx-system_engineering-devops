@@ -5,7 +5,6 @@ his/her TODO list progress"""
 import csv
 import requests
 import sys
-import pprint
 
 if __name__ == "__main__":
     id = sys.argv[1]
@@ -18,8 +17,6 @@ if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/todos"
     response = requests.get(url)
     todos = response.json()
-
-    # pprint.pp(todos)
 
     filename = id + '.csv'
     with open(filename, mode="w") as f:
