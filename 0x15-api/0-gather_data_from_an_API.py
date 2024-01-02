@@ -2,8 +2,8 @@
 """For a given employee ID, returns information about
 his/her TODO list progress"""
 
-import sys
 import requests
+import sys
 
 if __name__ == "__main__":
     id = sys.argv[1]
@@ -25,7 +25,7 @@ if __name__ == "__main__":
             if task.get('completed'):
                 completedTasks += 1
 
-    print('Employee {} is done with tasks ({}/{}):'
+    print('Employee {} is done with tasks({}/{}):'
           .format(name, completedTasks, totalTasks))
 
     tasks = ["\t " + task.get('title') for task in todos
