@@ -11,7 +11,7 @@ def number_of_subscribers(subreddit):
     """gets number of subscribers for a subreddit"""
 
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    response = requests.get(url, headers={"User-Agent": "User-Agent"},
+    response = requests.get(url, headers={"User-Agent": "Python-program"},
                             allow_redirects=False)
 
     if response.status_code >= 300:
