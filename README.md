@@ -24,3 +24,4 @@ commandline_for_the_win
 0x15-api_advanced  
 0x18-webstack_monitoring  
 0x17-web_stack_debugging_3  
+0x1A-application_server  
