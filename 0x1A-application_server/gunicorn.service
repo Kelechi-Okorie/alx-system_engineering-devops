@@ -1,0 +1,21 @@
+[Unit]
+Description = Runs Gunicorn by default when server is booted
+After = network.target
+
+[Service]
+PermissionsStartOnly = true
+PID = /run/hbnb/hbnb.pid
+User = ubuntu
+Group = ubuntu
+WorkingDirectory = /home/ubuntu/AirBnB_clone_v4
+ExecStartPre = /bin/mkdir /run/hbnb
+ExecStartPre = /bin/chown -R ubunbu:ubunbu /run/hbnb
+ExecStart = gunicorn --workers 3 --bind 0.0.0.0:5003 web_dynamic.2-hbnb:app --error-logfile /tmp/airnb-error.log
+Restart = always
+ExecStop = /bin/kill -s TERM  $MAINPID
+StandardOutput = append:/tmp/airbnb-access.log
+StandardError = append:/tmp/airbnb-errorl.log
+SyslogIdentifier = gunicorn
+
+[Install]
+WantedBy = multi-user.target
