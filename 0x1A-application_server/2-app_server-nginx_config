@@ -48,7 +48,7 @@ server {
 
         location /airbnb-onepage/ {
                 alias ~/AirBnB_clone_v2/;
-                proxy_pass http://0.0.0.0:500;
+                proxy_pass http://0.0.0.0:5000;
         }
 
         location / {
