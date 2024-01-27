@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A simple bash script that reloads Gunicorn in a gracefull way
+
+pkill -HUP gunicorn
